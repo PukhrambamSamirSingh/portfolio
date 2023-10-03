@@ -21,7 +21,7 @@ const Contact = () => {
                     <span>Jiribam, Manipur</span>
                 </div>
             </div> */}
-            <div className="w-full md:w-1/2 h-80 shadow-lg flex flex-col items-center justify-between p-4">
+            <div className="w-full md:w-1/2 h-80 shadow-2xl flex flex-col items-center justify-between p-4">
                 <h1 className="text-3xl">Feel free to contact me!</h1>
                 <img className="w-32 h-32 rounded-full object-cover border" src="https://res.cloudinary.com/samircloud/image/upload/v1695952725/plf9re0l8s0c0m91hktx.jpg" alt="" />
                 <div className="flex gap-4">

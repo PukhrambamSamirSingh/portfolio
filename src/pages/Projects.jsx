@@ -9,7 +9,7 @@ const Projects = () => {
                     <div className="w-full flex flex-col gap-4 shadow-xl p-2 animate__animated animate__zoomInUp" key={project.id}>
                         <img className="object-contain" src={project.image} alt="" />
                         <div className="flex gap-1">
-                            <a href={`https://${project.link}`} className="text-blue-500 underline">Click here</a>
+                            <a href={`https://${project.link}`} className="text-blue-500 underline text-xl">Click here</a>
                             <span>to redirect to the website</span>
                         </div>
                         <div className="flex flex-col gap-2">
