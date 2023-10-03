@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa"
 const Footer = () => {
     return (
         <div className="w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4 p-4 bg-gray-900">
-            <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center sm:gap-2">
+            <div className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-2">
                 <div className="flex items-center gap-2">
                     <img className="w-12 h-12 object-cover rounded-full" src="https://res.cloudinary.com/samircloud/image/upload/v1695952725/plf9re0l8s0c0m91hktx.jpg" alt="" />
                     <a href="#home" className="flex items-center">
