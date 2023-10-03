@@ -51,7 +51,7 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="flex lg:hidden">
-                <GiHamburgerMenu onClick={() => setToggle(!toggle)} />
+                <GiHamburgerMenu onClick={() => setToggle(!toggle)} className="text-xl" />
                 <div className="relative">
                     {toggle && (
                         <ul className="flex flex-col gap-3 absolute right-0 top-10 p-4 app_background w-56 shadow animate__animated animate__flipInX">
