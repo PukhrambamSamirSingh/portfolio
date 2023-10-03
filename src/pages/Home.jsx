@@ -39,7 +39,7 @@ const Home = () => {
     }
 
     return (
-        <div className="w-full min-h-[70vh] md:min-h-screen flex flex-col sm:flex-row sm:items-center justify-around p-4 md:px-12 lg:px-16 gap-4" id="home">
+        <div className="w-full min-h-[75vh] md:min-h-screen flex flex-col sm:flex-row sm:items-center justify-around p-4 md:px-12 lg:px-16 gap-4" id="home">
             <div className="w-full sm:w-1/2 flex flex-col gap-5 h-1/2">
                 <div className="flex gap-2 items-center">
                     <img className="w-6 h-6 sm:w-10 sm:h-10" src="https://static.vecteezy.com/system/resources/previews/012/496/491/original/flat-sparkling-star-icon-illustration-png.png" alt="" />
