@@ -32,5 +32,10 @@ export const abouts = [
         id: 2,
         title: "HOBBIES",
         desc: "I enjoy reading books, not just academic ones, but also watching movies and anime, listening to music, and watching educational videos on current affairs on YouTube."
+    },
+    {
+        id: 3,
+        title: "EDUCATION",
+        desc: "I have completed my Class 12 education in the Science stream and am currently pursuing my BSc."
     }
 ]

@@ -23,7 +23,7 @@ const Contact = () => {
             </div> */}
             <div className="w-full md:w-1/2 h-80 shadow-2xl flex flex-col items-center justify-between p-4">
                 <h1 className="text-3xl">Feel free to contact me!</h1>
-                <img className="w-32 h-32 rounded-full object-cover border" src="https://res.cloudinary.com/samircloud/image/upload/v1695952725/plf9re0l8s0c0m91hktx.jpg" alt="" />
+                <img className="w-32 h-32 rounded-full object-cover border" src="https://res.cloudinary.com/samircloud/image/upload/v1696346456/q8magttsvyngb2ily2hp.jpg" alt="" />
                 <div className="flex gap-4">
                     <a href="https://github.com/PukhrambamSamirSingh"><BsGithub className="text-xl" /></a>
                     <a href="https://www.linkedin.com/in/samir-robin-6576bb251/"><FaLinkedinIn className="text-xl" /></a>
