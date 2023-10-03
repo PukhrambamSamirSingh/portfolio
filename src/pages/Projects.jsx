@@ -6,9 +6,9 @@ const Projects = () => {
             <h1 className="text-2xl sm:text-4xl font-semibold underline">Projects</h1>
             <div className="w-full grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-6">
                 {projects.map((project) => (
-                    <div className="w-full flex flex-col gap-4 shadow-xl p-2 animate__animated animate__zoomInUp" key={project.id}>
+                    <div className="w-full flex flex-col gap-4 shadow-2xl p-2 animate__animated animate__zoomInUp" key={project.id}>
                         <img className="object-contain" src={project.image} alt="" />
-                        <div className="flex gap-1">
+                        <div className="flex items-center gap-1">
                             <a href={`https://${project.link}`} className="text-blue-500 underline text-xl">Click here</a>
                             <span>to redirect to the website</span>
                         </div>
