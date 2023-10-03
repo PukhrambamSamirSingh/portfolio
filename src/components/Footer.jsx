@@ -16,7 +16,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <span className="hidden sm:block">|</span>
-                <p className="text-center text-sm sm:text-md">Copyright &copy; 2023 samirweb.vercel.app/</p>
+                <p className="text-center text-sm sm:text-md">Copyright &copy; 2023 samirweb.vercel.app</p>
             </div>
             <div className="flex gap-4">
                 <a href="https://github.com/PukhrambamSamirSingh"><BsGithub className="text-xl" /></a>
