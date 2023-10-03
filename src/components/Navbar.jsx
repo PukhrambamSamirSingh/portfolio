@@ -54,7 +54,7 @@ const Navbar = () => {
                 <GiHamburgerMenu onClick={() => setToggle(!toggle)} />
                 <div className="relative">
                     {toggle && (
-                        <ul className="flex flex-col gap-3 absolute right-0 top-[38px] p-4 app_background w-56 shadow animate__animated animate__flipInX">
+                        <ul className="flex flex-col gap-3 absolute right-0 top-10 p-4 app_background w-56 shadow animate__animated animate__flipInX">
                             <li className="cursor-pointer">
                                 <ScrollLink to="home" smooth={true} duration={500}>
                                     Home

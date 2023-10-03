@@ -39,15 +39,13 @@ const Home = () => {
     }
 
     return (
-        <div className="w-full flex flex-col sm:flex-row sm:items-center justify-around p-4 md:px-12 lg:px-16 gap-4" id="home" style={{
-            minHeight: "calc(100vh - 60px)"
-        }}>
+        <div className="w-full min-h-[70vh] md:min-h-screen flex flex-col sm:flex-row sm:items-center justify-around p-4 md:px-12 lg:px-16 gap-4" id="home">
             <div className="w-full sm:w-1/2 flex flex-col gap-5 h-1/2">
                 <div className="flex gap-2 items-center">
                     <img className="w-6 h-6 sm:w-10 sm:h-10" src="https://static.vecteezy.com/system/resources/previews/012/496/491/original/flat-sparkling-star-icon-illustration-png.png" alt="" />
                     <h2 className="text-sm sm:text-lg italic">Welcome to my personal portfolio!</h2>
                 </div>
-                <div className="h-36 md:h-52">
+                <div className="h-32 md:h-52">
                     <h1 className="text-4xl md:text-5xl xl:text-6xl gradient_text_intro">{displayText}</h1>
                 </div>
                 <button className="border flex items-center justify-center gap-2 p-2 max-w-max text-sm bg-orange-500 rounded-md hover:bg-transparent duration-200" onClick={handleDownload}>Download CV
