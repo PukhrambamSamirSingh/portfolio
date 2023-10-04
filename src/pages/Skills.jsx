@@ -37,12 +37,6 @@ const Skills = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center gap-2">
                         <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full shadow-xl flex justify-center items-center hover:bg-orange-500 duration-200">
-                            <FaCss3 className="text-3xl" />
-                        </div>
-                        <span className="text-sm sm:text-md">CSS</span>
-                    </div>
-                    <div className="flex flex-col justify-center items-center gap-2">
-                        <div className="w-16 h-16 sm:w-24 sm:h-24 rounded-full shadow-xl flex justify-center items-center hover:bg-orange-500 duration-200">
                             <FaReact className="text-3xl" />
                         </div>
                         <span className="text-sm sm:text-md">ReactJs</span>
