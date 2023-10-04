@@ -10,7 +10,7 @@ const Projects = () => {
                         <img className="object-contain" src={project.image} alt="" />
                         <div className="flex items-center gap-1">
                             <a href={`https://${project.link}`} className="text-blue-500 underline text-xl">Click here</a>
-                            <span>to redirect to the website</span>
+                            <span>to view my website</span>
                         </div>
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-semibold text-gray-500">{project.name}</h2>
