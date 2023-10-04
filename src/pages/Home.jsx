@@ -47,7 +47,7 @@ const Home = () => {
                 <div className="h-32 md:h-52">
                     <h1 className="text-4xl md:text-5xl xl:text-6xl gradient_text_intro">{displayText}</h1>
                 </div>
-                <h4 className="font-semibold">More Than 2+ Years of Experienced in web development.</h4>
+                <h4 className="font-semibold">More Than 2+ Years of Experienced in Web Development.</h4>
             </div>
             <div className="w-full sm:w-1/2 h-1/2">
                 <img className="animate__animated animate__zoomInDown animate__slower w-full object-contain" src="https://cdni.iconscout.com/illustration/premium/thumb/business-planning-6129726-5059670.png" alt="" />
