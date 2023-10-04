@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { BsDownload } from "react-icons/bs"
 
 const Home = () => {
     const [index, setIndex] = useState(0);
@@ -27,16 +26,16 @@ const Home = () => {
 
         return () => clearInterval(interval);
     }, [index]);
-    const handleDownload = () => {
-        const a = document.createElement('a')
-        a.style.display = 'none';
-        const fileURL = '../../src/assets/resume.pdf'
-        a.setAttribute('download', 'resume.pdf')
-        a.setAttribute('href', fileURL)
-        document.body.appendChild(a)
-        a.click()
-        document.body.removeChild(a)
-    }
+    // const handleDownload = () => {
+    //     const a = document.createElement('a')
+    //     a.style.display = 'none';
+    //     const fileURL = '../../src/assets/resume.pdf'
+    //     a.setAttribute('download', 'resume.pdf')
+    //     a.setAttribute('href', fileURL)
+    //     document.body.appendChild(a)
+    //     a.click()
+    //     document.body.removeChild(a)
+    // }
 
     return (
         <div className="w-full min-h-[75vh] md:min-h-screen flex flex-col sm:flex-row sm:items-center justify-around p-4 md:px-12 lg:px-16 gap-4" id="home">
@@ -48,9 +47,7 @@ const Home = () => {
                 <div className="h-32 md:h-52">
                     <h1 className="text-4xl md:text-5xl xl:text-6xl gradient_text_intro">{displayText}</h1>
                 </div>
-                <button className="border flex items-center justify-center gap-2 p-2 max-w-max text-sm bg-orange-500 rounded-md hover:bg-transparent duration-200" onClick={handleDownload}>Download CV
-                    <BsDownload />
-                </button>
+                <h4 className="font-semibold">More Than 2+ Years of Experienced in web development.</h4>
             </div>
             <div className="w-full sm:w-1/2 h-1/2">
                 <img className="animate__animated animate__zoomInDown animate__slower w-full object-contain" src="https://cdni.iconscout.com/illustration/premium/thumb/business-planning-6129726-5059670.png" alt="" />
